@@ -1,0 +1,18 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java / Spring Boot
+backend/target/
+*.class
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log

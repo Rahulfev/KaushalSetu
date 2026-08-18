@@ -1,0 +1,51 @@
+/* src/index.css */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* Force Light Mode colors for your Admin Panel */
+  color-scheme: light;
+  color: #212529;
+  background-color: #f8f9fa; /* Light gray background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* ⚠️ IMPORTANT: Change display from 'flex' to 'block' to stop centering */
+  display: block; 
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* ⚠️ IMPORTANT: Fix the Root container */
+#root {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Reset text alignment */
+}
+
+/* Optional: Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
